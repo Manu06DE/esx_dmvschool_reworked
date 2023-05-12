@@ -1,0 +1,112 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="question-container">
+			<!-- header -->
+			<div class="header">
+				<h1>Theorieprüfung</h1>
+			</div>
+			<!-- home -->
+			<div class="body home">
+				<div class="content">
+					<!-- ICI BREVE PRESENTATION -->
+					<center>
+						<br>
+						<p class="bold-text">Willkommen in der Fahrschule München
+					</center>
+					<br>
+					<center>Alle müssen ihre Prüfung bestehen, bevor sie Auto fahren dürfen.
+						<br>Lass dir Zeit, antworte mit gesundem Menschenverstand und antworte nicht wahllos.
+						<br>
+						<br> Theorieprüfung
+						<br> - Die Theorieprüfung kostet 500€, diese werden nicht zurückerstattet, wenn du die Prüfung nicht bestehst.
+						<br> - Hab keine Angst, die Fahrschule akzeptiert Kredite, aber pass auf, dass du dich nicht verschuldest.
+						<br> - Wenn du den Test beim ersten Mal nicht bestehst, kannst du ihn nicht sofort wiederholen, sondern musst ihn zu einem späteren Zeitpunkt ablegen.
+						<br>
+						<br> Fahrpüfungen
+						<br> - Die Normale PKW-Prüfung kostet 2500€, die LKW-Prüfung 5000€ und die Motorrad-Prüfung 3000€ diese Zahlungen werden nicht zurückerstattet, wenn du durchfällst.
+						<br> - Achte darauf, dass du beim Fahren wachsam bleibst und vermeide Unfälle!</p>
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnQuestion">Prüfung beginnen</a>
+				</div>
+			</div>
+			<!-- Question-->
+			<div class="body questionnaire-container">
+				<div class="content">
+					<h2 id="questionNumero"></h2>
+					<p id="question"></p>
+					<form class="form" id="question-form">
+						<div>
+							<input type="radio" name="question" id="answerA" value="A">
+							<label class="answerA"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerB" value="B">
+							<label class="answerB"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerC" value="C">
+							<label class="answerC"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerD" value="D">
+							<label class="answerD"></label>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>  
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<button type="submit" id="submit" class="submit">Weiter</button>
+					</form>
+				</div>
+			</div>
+			<!-- Results -->
+			<div class="body resultGood">
+				<div class="content">
+					<center>
+						<p class="bold-text">Gute Arbeit!</p>
+						<br>
+						<br>Du hast die Prüfung bestanden.
+						<br>
+						<br>Du kannst dieses Fenster schließen und Ihre Fahrprüfung(en) ablegen.
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnClose">Schließen</a>
+				</div>
+			</div>
+			<div class="body resultBad">
+				<div class="content">
+					<center>
+						<p class="bold-text">Du hast nicht Bestanden</p>
+						<br>
+						<br>Du warst nicht gut vorbereitet, versuch es später nochmal...
+						<br>
+						<br>
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnKick">Schließen</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="questions.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+
+</body>

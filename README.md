@@ -1,7 +1,7 @@
 Das ist eine Modifizierte version des esx_dmvschool scripts.
 
 ## Was geändert worden ist:
-- Es wurden weitere Klassen Hinzugefügt (insgesamt nun Klassen: A, B, CE, C1E, D)
+- Es wurden weitere Klassen Hinzugefügt (insgesamt nun Klassen: A, B, C, CE, D)
 - Das UI wurde angepasst
 - Das Script wurde auf Deutsch übersetzt
 - Es sind 10 Echte Fahrschulfragen enthalten
